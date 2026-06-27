@@ -153,4 +153,4 @@ trap detection rules were implemented and validated manually.
 
 ## Compute Environment
 
-Windows 11, Intel i7-12700H, 16GB RAM, NVIDIA RTX 3050 6GB Laptop GPU, Python 3.10.11
+Windows 11, Intel i5-12450HX, 16GB RAM, NVIDIA RTX 3050 6GB Laptop GPU, Python 3.10.11
