@@ -17,7 +17,7 @@ team_members:
     role: "ML Engineer"
 
 github_repo: "https://github.com/PIYUSH-BHAVSAR/redrob_ranking"
-sandbox_link: "YOUR_SANDBOX_LINK"
+sandbox_link: "https://huggingface.co/spaces/pylord/redrob-ranker"
 
 reproduce_command: "python src/rank.py --candidates ./candidates.jsonl --out ./submission/submission.csv"
 
