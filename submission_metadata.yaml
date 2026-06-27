@@ -1,0 +1,51 @@
+team_name: "Piyush Bhavsar"
+
+primary_contact:
+  name: "Piyush Bhavsar"
+  email: "your@email.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "Piyush Bhavsar"
+    email: "your@email.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/PIYUSH-BHAVSAR/redrob-ranking"
+sandbox_link: "YOUR_SANDBOX_LINK"
+
+reproduce_command: "python src/rank.py --candidates ./candidates.jsonl --out ./submission/submission.csv"
+
+compute:
+  platform: "Windows 11, Intel i7-12700H, RTX 3050 6GB Laptop GPU"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 16
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude for architecture review, code review, and debugging.
+  No candidate data was fed to any LLM. All scoring logic and
+  feature engineering was implemented and validated manually.
+
+methodology_summary: |
+  Hybrid scoring system combining semantic similarity (MiniLM embeddings
+  across 3 JD sections), career trajectory analysis, behavioral signals,
+  and two-layer trap detection. Precomputes all embeddings offline; ranking
+  step runs in pure numpy under 60 seconds on CPU. Key innovations:
+  per-role max cosine aggregation to catch Tier-5 candidates,
+  time-weighted product company scoring, and job-function mismatch
+  detection for keyword stuffers.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

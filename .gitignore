@@ -1,0 +1,11 @@
+data/output/
+data/processed/
+models/
+__pycache__/
+*.pyc
+*.pyo
+.env
+redrob_env/
+*.egg-info/
+.DS_Store
+logs/
