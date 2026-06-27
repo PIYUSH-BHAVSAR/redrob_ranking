@@ -1,22 +1,28 @@
 team_name: "Piyush Bhavsar"
 
 primary_contact:
-  name: "Piyush Bhavsar"
-  email: "your@email.com"
+  name: "Piyush Hemant Bhavsar"
+  email: "piyushbhavsar1665@gmail.com"
   phone: "+91-XXXXXXXXXX"
 
 team_members:
-  - name: "Piyush Bhavsar"
-    email: "your@email.com"
+  - name: "Piyush Hemant Bhavsar"
+    email: "piyushbhavsar1665@gmail.com"
+    role: "Team Lead / ML Engineer"
+  - name: "Shweta Suresh Kidle"
+    email: "skidle03@gmail.com"
+    role: "ML Engineer"
+  - name: "Arjan Pathan"
+    email: "arjanpathan.112023336@sitrc.org"
     role: "ML Engineer"
 
-github_repo: "https://github.com/PIYUSH-BHAVSAR/redrob-ranking"
+github_repo: "https://github.com/PIYUSH-BHAVSAR/redrob_ranking"
 sandbox_link: "YOUR_SANDBOX_LINK"
 
 reproduce_command: "python src/rank.py --candidates ./candidates.jsonl --out ./submission/submission.csv"
 
 compute:
-  platform: "Windows 11, Intel i7-12700H, RTX 3050 6GB Laptop GPU"
+  platform: "Windows 11, Intel i5-12450HX, RTX 3050 6GB Laptop GPU"
   cpu_cores: 8
   ram_gb: 16
   python_version: "3.10.11"

@@ -2,7 +2,9 @@
 
 ## Team
 
-- Piyush Bhavsar — your@email.com
+- Piyush Hemant Bhavsar — piyushbhavsar1665@gmail.com (Lead)
+- Shweta Suresh Kidle — skidle03@gmail.com
+- Arjan Pathan — arjanpathan.112023336@sitrc.org
 
 ---
 
